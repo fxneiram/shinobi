@@ -9,7 +9,7 @@
     }],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^6.0|^7.0"
+        "illuminate/support": "^8.0"
     },
     "autoload": {
         "psr-4": {
@@ -33,7 +33,6 @@
     },
     "minimum-stability": "dev",
     "require-dev": {
-        "orchestra/testbench": "^3.7",
         "doctrine/dbal": "^2.10@dev"
     }
 }
