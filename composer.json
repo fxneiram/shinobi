@@ -1,5 +1,5 @@
 {
-    "name": "caffeinated/shinobi",
+    "name": "fxneiram/shinobi",
     "description": "Laravel Roles and Permissions",
     "keywords": ["shinobi", "roles", "permissions", "auth", "laravel", "caffeinated"],
     "license": "MIT",
@@ -8,7 +8,7 @@
         "email": "shea.lewis89@gmail.com"
     }],
     "require": {
-        "php": "^7.2",
+        "php": "^8.0",
         "illuminate/support": "^6.0|^7.0"
     },
     "autoload": {
