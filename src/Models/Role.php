@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Shinobi\Models;
+namespace Fxneiram\Shinobi\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Caffeinated\Shinobi\Concerns\HasPermissions;
-use Caffeinated\Shinobi\Contracts\Role as RoleContract;
+use Fxneiram\Shinobi\Concerns\HasPermissions;
+use Fxneiram\Shinobi\Contracts\Role as RoleContract;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Role extends Model implements RoleContract

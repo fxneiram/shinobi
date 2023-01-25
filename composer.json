@@ -1,7 +1,7 @@
 {
     "name": "fxneiram/shinobi",
     "description": "Laravel Roles and Permissions",
-    "keywords": ["shinobi", "roles", "permissions", "auth", "laravel", "caffeinated"],
+    "keywords": ["shinobi", "roles", "permissions", "auth", "laravel", "fxneiram"],
     "license": "MIT",
     "authors": [{
         "name": "Shea Lewis",
@@ -9,25 +9,25 @@
     }],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Caffeinated\\Shinobi\\": "src/"
+            "Fxneiram\\Shinobi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Caffeinated\\Shinobi\\Tests\\": "tests/"
+            "Fxneiram\\Shinobi\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Shinobi\\ShinobiServiceProvider"
+                "Fxneiram\\Shinobi\\ShinobiServiceProvider"
             ],
             "aliases": {
-                "Shinobi": "Caffeinated\\Shinobi\\Facades\\Shinobi"
+                "Shinobi": "Fxneiram\\Shinobi\\Facades\\Shinobi"
             }
         }
     },

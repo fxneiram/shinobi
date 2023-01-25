@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Shinobi\Concerns;
+namespace Fxneiram\Shinobi\Concerns;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Caffeinated\Shinobi\Contracts\Role;
+use Fxneiram\Shinobi\Contracts\Role;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 trait HasRoles
@@ -159,7 +159,7 @@ trait HasRoles
     /**
      * Get the model instance responsible for permissions.
      * 
-     * @return \Caffeinated\Shinobi\Contracts\Role
+     * @return \Fxneiram\Shinobi\Contracts\Role
      */
     protected function getRoleModel(): Role
     {

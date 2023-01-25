@@ -1,10 +1,10 @@
 <?php
 
-namespace Caffeinated\Shinobi\Tactics;
+namespace Fxneiram\Shinobi\Tactics;
 
 use Illuminate\Support\Arr;
 use Illuminate\Database\Eloquent\Model;
-use Caffeinated\Shinobi\Facades\Shinobi;
+use Fxneiram\Shinobi\Facades\Shinobi;
 
 class RevokePermissionFrom
 {

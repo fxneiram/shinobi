@@ -1,11 +1,11 @@
 <?php
 
-namespace Caffeinated\Shinobi\Models;
+namespace Fxneiram\Shinobi\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Caffeinated\Shinobi\Concerns\RefreshesPermissionCache;
-use Caffeinated\Shinobi\Contracts\Permission as PermissionContract;
+use Fxneiram\Shinobi\Concerns\RefreshesPermissionCache;
+use Fxneiram\Shinobi\Contracts\Permission as PermissionContract;
 
 class Permission extends Model implements PermissionContract
 {
